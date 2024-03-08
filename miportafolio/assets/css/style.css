@@ -1,0 +1,275 @@
+h1 {
+  font-family: 'roboto', cursive;
+  font-weight: 400;
+  color: #fefefe;
+}
+
+h2 {
+  font-family: 'roboto', sans-serif;
+  font-size: 400;
+  text-align: center;
+  color: #0e7c7b;
+}
+
+h3 {
+  font-family: 'roboto', cursive;
+  font-weight: 400;
+  color: #fefefe;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: 'roboto', sans-serif;
+  font-weight: 400;
+  color: #fefefe;
+  font-size: 35px;
+}
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 400;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 400;
+}
+
+/*Navbar*/
+.n-f-color {
+  background-color: #6d7071;
+  font-size: 400;
+}
+
+.nav-txt{
+  font-family: 'raleway', sans-serif;
+  text-align: justify;
+}
+
+/*Sobre mi*/
+.img-sobre-mi {
+  background-image: url('../img/fondo.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 82px;
+  height: 100%;
+}
+
+.img-me {
+  height: 300px;
+  margin-top: 42px;
+  margin-bottom: 32px;
+}
+
+.font-sm {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.f-size {
+  font-size: 40px;
+}
+
+.margin-sm {
+  text-align: center;
+  padding-top: 0px;
+}
+
+.hr {
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 1px solid #fefefe;
+}
+/*Descripción*/
+.description {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: none;
+}
+
+.txt {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 30px;
+  color: #00303a;
+}
+.hr-2 {
+  border-top: 2px solid;
+  color: #bfebf4;
+  margin-left: 510px;
+  margin-right: 510px;
+}
+
+
+/*mis conocimientos*/
+.mc-color{
+  background-color:rgb(51, 174, 232);
+ 
+}
+.carousel-icons{
+  height: 20rem;   
+}
+.icons-group{
+  font-size: 4rem;
+}
+.mi-experiencia{
+height: 670px;
+}
+
+.hr-3 {
+  border-top: 2px solid;
+  color: #fefefe;
+  margin-left: 635px;
+  margin-right: 635px;
+  margin-bottom: 65px;
+}
+
+/*Portafolio*/
+.margin-card {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 53px;
+  padding-bottom: 107px;
+  background-color: #cae2f6;
+  border-radius: 5%; 
+  box-shadow: #151616;
+}
+
+.car-m-m {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.m3-card {
+  margin-top: 45px;
+}
+.portafiolio-img{
+  width: 100%;
+  height: 12.5rem;
+}
+.ut-color {
+  color: #fefefe;
+  margin-bottom: 15px;
+}
+
+.m-e-align section{
+  text-align: center;
+  display: inline-block;
+}
+
+.al-center {
+  text-align: center;
+}
+.hr-4 {
+  border-top: 2px solid;
+  color: #fefefe;
+  margin-left: 483px;
+  margin-right: 483px;
+  margin-bottom: 65px;
+}
+
+/*Contacto*/
+.contacto {
+  text-align: center;
+  padding-top: 45px;
+}
+
+.p-contacto {
+  font-family: '', cursive;
+  font-size: 400;
+  font-size: 21px;
+}
+
+.button-m {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: #148775;
+  border-color: #00303a;
+  font-family: 'text new roman', cursive;
+}
+/*Footer*/
+.footer {
+  color: #fefefe;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footer h3 {
+  margin-left: 10px;
+}
+.icons {
+  font-size: 40px;
+  padding-left: 10px;
+}
+
+.color-a {
+color: #fefefe;
+}
+
+.color-a:hover {
+  color: #148775;
+}
+
+@media screen and (min-width: 1200px) {
+  /*Sobre mi*/
+.img-sobre-mi {
+  background-image: url('../img/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 82px;
+  height: 300px;
+  margin-top: 82px;
+  height: 747px;
+}
+
+.img-me {
+  height: 490px;
+  margin-top: 42px;
+  margin-bottom: 32px;
+}
+
+.margin-sm {
+  text-align: center;
+  padding-top: 0px;
+}
+
+.description {
+  display: block;
+}
+
+.hr {
+  margin-left: 540px;
+  margin-right: 540px;
+  border: 1px solid #fefefe;
+  }
+
+/*mi experiencia*/
+.mi-experiencia {
+  height: 400px;
+  }
+
+  /*últimos trabajos*/
+.margin-card {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 53px;
+  padding-bottom: 107px;
+  background-color: #94cbf8;
+}
+/*Footer*/
+.footer {
+  height: 165px;
+  padding-top: 55px;
+  text-align: left;
+  padding-left: 330px;
+}
+
+.footer h3 {
+  margin-left: 0px;
+}
+
+.icons {
+  font-size: 40px;
+}
+
+}

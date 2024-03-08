@@ -1,0 +1,33 @@
+.carrito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10% 0;
+  /* background-color: darkgray; */
+  color: white;
+  border-radius: 1rem;
+}
+
+.gradiente-carrito{
+  background: linear-gradient( #00dce7, #089ff7, #0381e2 );
+}
+
+.btn-volver {
+  width: 10%;
+}
+
+
+.titular-carrito {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+  .no-ver {
+    visibility: hidden;
+    width: auto;
+  }
+}
+
